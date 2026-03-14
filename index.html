@@ -8,54 +8,56 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Merriweather:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-
-    <nav class="top-nav">
-        <div class="nav-brand">
-            <a href="index.html">Likhon Rana</a>
-        </div>
-        <ul class="nav-links">
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="research.html">Research</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="publications.html">Publications</a></li>
-            <li><a href="achievements.html">Achievements</a></li>
-            <li><a href="cv.html">CV</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-
-    <header class="hero-section">
-        <div class="hero-content">
+    <div class="container">
+        <div class="sidebar">
+            <img src="profile.png" alt="Likhon Rana" class="profile-img">
             <h1>Likhon Rana</h1>
-            <h2>Undergraduate Student</h2>
-            <p>Department of Electrical & Electronic Engineering</p>
-            <p>University of Dhaka, Bangladesh</p>
+            <p class="title">Undergraduate Student</p>
+            <p class="dept">Department of Electrical & Electronic Engineering<br>University of Dhaka</p>
+            
+            <nav class="nav-menu">
+                <a href="index.html" class="active">Home</a>
+                <a href="research.html">Research</a>
+                <a href="projects.html">Projects</a>
+                <a href="publications.html">Publications</a>
+                <a href="achievements.html">Achievements</a>
+                <a href="cv.html">CV</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+
+            <div class="contact-info">
+                <a href="mailto:mdlikhonrana533@gmail.com">Email Me</a>
+                <a href="https://www.linkedin.com/in/likhon-rana-a51540321" target="_blank">LinkedIn</a>
+                <a href="https://github.com/Likhon-Rana" target="_blank">GitHub</a>
+                <a href="likhonCV.pdf" target="_blank" class="btn-cv">Download CV</a>
+            </div>
         </div>
-    </header>
 
-    <div class="page-content">
-        <section class="content-section">
-            <h2>About Me</h2>
-            <p>Welcome to my academic homepage. I am a 3rd-year undergraduate student in Electrical and Electronic Engineering at the University of Dhaka with a strong academic standing. My interests lie primarily in <strong>semiconductor devices, VLSI, microprocessors, and AI-driven computing systems</strong>.</p>
-        </section>
+        <div class="main-content">
+            <section id="about">
+                <h2>About Me</h2>
+                <p>Welcome to my academic homepage. I am a 3rd-year undergraduate student in Electrical and Electronic Engineering at the University of Dhaka with a strong academic standing. My interests lie primarily in <strong>semiconductor devices, VLSI, microprocessors, and AI-driven computing systems</strong>.</p>
+            </section>
 
-        <section class="content-section">
-            <h2>News & Updates</h2>
-            <ul>
-                <li style="margin-bottom: 10px;"><strong>Feb 2026:</strong> Served as an Authorized Election Observer for the 13th National Parliamentary Election.</li>
-                <li style="margin-bottom: 10px;"><strong>2025:</strong> Participated in the BEAR Summit & National Semiconductor Symposium.</li>
-                <li style="margin-bottom: 10px;"><strong>2024:</strong> Appointed as Webmaster for the IEEE Electron Devices Society (EDS) Student Branch Chapter, DU.</li>
-            </ul>
-        </section>
+            <section id="news">
+                <h2>News & Updates</h2>
+                <ul class="news-list">
+                    <li><span class="date">Feb 2026:</span> Served as an Authorized Election Observer for the 13th National Parliamentary Election.</li>
+                    <li><span class="date">2025:</span> Participated in the BEAR Summit & National Semiconductor Symposium.</li>
+                    <li><span class="date">2024:</span> Appointed as Webmaster for the IEEE Electron Devices Society (EDS) Student Branch Chapter, DU.</li>
+                </ul>
+            </section>
 
-        <section class="content-section">
-            <h2>Education</h2>
-            <h3 style="margin-bottom: 5px;">B.Sc. in Electrical and Electronic Engineering</h3>
-            <p><strong>University of Dhaka</strong> (2023 - Present)</p>
-            <p><strong>CGPA:</strong> 3.81 / 4.00</p>
-            <p style="margin-top: 10px;"><em>Relevant Coursework:</em> Solid State Physics, Electronic Devices, Digital Electronics, Signals & Systems, Microprocessor.</p>
-        </section>
+            <section id="education">
+                <h2>Education</h2>
+                <div class="edu-item">
+                    <h3>B.Sc. in Electrical and Electronic Engineering</h3>
+                    <p class="uni">University of Dhaka <span>(2023 - Present)</span></p>
+                    <p><strong>CGPA:</strong> 3.81 / 4.00</p>
+                    <p class="coursework"><em>Relevant Coursework:</em> Solid State Physics, Electronic Devices, Digital Electronics, Signals & Systems, Microprocessor.</p>
+                </div>
+            </section>
+        </div>
     </div>
-
 </body>
 </html>
