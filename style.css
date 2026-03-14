@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    min-width: 1050px; /* This forces the browser to show desktop layout on all devices */
+    min-width: 1050px; /* Forces PC view on all devices */
 }
 
 h1, h2, h3 {
@@ -23,7 +23,7 @@ h2 {
 }
 
 a {
-    color: #003262;
+    color: #003262; /* Academic Blue */
     text-decoration: none;
 }
 
@@ -86,10 +86,19 @@ a:hover {
     margin: 0;
 }
 
+/* Updated University of Dhaka Focus CSS */
 .sidebar .dept {
-    font-size: 14px;
-    color: #777;
+    font-size: 13px;
+    color: #666;
     margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.sidebar .uni-name {
+    font-size: 16px;
+    font-weight: 700;
+    color: #003262;
+    margin-top: 0;
 }
 
 /* Navigation */
