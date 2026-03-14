@@ -1,22 +1,55 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-<title>Projects | Likhon Rana</title>
+    <meta charset="UTF-8">
+    <title>Projects | Likhon Rana</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Merriweather:wght@700&display=swap" rel="stylesheet">
 </head>
-
 <body>
+    <div class="container">
+        <div class="sidebar">
+            <img src="profile.png" class="profile-img">
+            <h1>Likhon Rana</h1>
+            <p class="title">Undergraduate Student</p>
+            <p class="dept">EEE, University of Dhaka</p>
+            <nav class="nav-menu">
+                <a href="index.html">Home</a>
+                <a href="research.html">Research</a>
+                <a href="projects.html" class="active">Projects</a>
+                <a href="publications.html">Publications</a>
+                <a href="achievements.html">Achievements</a>
+                <a href="cv.html">CV</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <div class="contact-info">
+                <a href="likhonCV.pdf" target="_blank" class="btn-cv">Download CV</a>
+            </div>
+        </div>
 
-<h1>Projects</h1>
-
-<h3>FM Modulation Simulation</h3>
-<p>Simulation of frequency modulation and demodulation.</p>
-
-<h3>Assembly Programming</h3>
-<p>Programs written using MASM/TASM assembly language.</p>
-
-<a href="index.html">Home</a>
-
+        <div class="main-content">
+            <h2>Academic Projects</h2>
+            <ul class="project-list">
+                <li>
+                    <strong>Library Management System (C Programming)</strong>
+                    <span class="status ongoing">Completed: 2024</span>
+                    <p style="margin-top: 10px; font-size: 14px;">Developed a console-based library management system using C. Implemented book records, search, issue, and return operations applying structured programming and file handling concepts.</p>
+                </li>
+                <li>
+                    <strong>Assembly Programming</strong>
+                    <span class="status ongoing">Ongoing</span>
+                    <p style="margin-top: 10px; font-size: 14px;">Programs written using MASM/TASM assembly language.</p>
+                </li>
+                <li>
+                    <strong>Advanced VLSI Design & Simulation</strong>
+                    <span class="status tba">Status: Planning Phase - Stay Tuned</span>
+                </li>
+            </ul>
+            
+            <h2 style="margin-top: 40px;">Technical Skills</h2>
+            <p><strong>Languages:</strong> C Programming, Python, Assembly, HTML.</p>
+            <p><strong>Tools & Software:</strong> MATLAB, OrCAD, PSpice, AutoCAD.</p>
+        </div>
+    </div>
 </body>
-
 </html>
